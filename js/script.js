@@ -8,7 +8,7 @@ $(document).ready(function() {
         $(this).addClass('tabs-triggers__item--active');
         $($(this).attr('href')).addClass('tabs-content__item--active');
     });
-    $('.tabs-triggers__item:first').click();
+    $('#main').click();
 
     $('.slider').slick({
         // centerMode: true,
