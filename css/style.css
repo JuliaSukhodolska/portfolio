@@ -165,6 +165,12 @@ a {
     height: 290px;
     overflow: hidden;
 }
+.tabs-video-lottie {
+    height: 290px;
+}
+.tabs-video-lottie.lottie-height{
+    height: 290px;
+}
 
 
 /* gallery */
@@ -372,6 +378,18 @@ a {
     margin: 0 auto;
     max-width: 1045px;
 }
+.character__lottie {
+    margin: 25px auto 0px;
+    max-width: 1361px;
+}
+.tittle-lottie {
+    margin-top: 45px;
+}
+.subtitle-lottie {
+    text-align: center;
+    color: #b087ff;
+}
+
 
 .banner__title {
     position: absolute;
