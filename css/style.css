@@ -466,6 +466,9 @@ a {
 .banners__9 {
     max-height: 710px;
 }
+.banners__10 img {
+    width: 100%;
+}
 
 .banners__1::after,
 .banners__2::after,
@@ -673,6 +676,12 @@ a {
 
 
 /* -----------------media-------------- */
+@media (min-width: 1222px) {
+    .banners__10 {
+        max-width: 400px;
+        margin-top: -100px;
+    }
+}
 
 @media (min-width: 993px) {
     .banners__1:hover .banner__title,
