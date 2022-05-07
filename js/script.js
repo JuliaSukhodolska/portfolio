@@ -112,3 +112,6 @@ $(document).ready(function() {
         window.location = linkLocation;
     }
 });
+setTimeout(function() {
+    document.getElementById("test1").click();
+}, 1000);
