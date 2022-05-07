@@ -165,10 +165,12 @@ a {
     height: 290px;
     overflow: hidden;
 }
+
 .tabs-video-lottie {
     height: 290px;
 }
-.tabs-video-lottie.lottie-height{
+
+.tabs-video-lottie.lottie-height {
     height: 290px;
 }
 
@@ -378,18 +380,20 @@ a {
     margin: 0 auto;
     max-width: 1045px;
 }
+
 .character__lottie {
     margin: 25px auto 0px;
     max-width: 1361px;
 }
+
 .tittle-lottie {
     margin-top: 45px;
 }
+
 .subtitle-lottie {
     text-align: center;
     color: #b087ff;
 }
-
 
 .banner__title {
     position: absolute;
@@ -441,9 +445,12 @@ a {
     transform: translateX(-0.5px);
 }
 
-.banners__5 img,
-.banners__6 img {
+.banners__5 img {
     max-width: 405px;
+}
+
+.banners__6 img {
+    max-width: 394px;
 }
 
 .banners__7 {
@@ -459,15 +466,24 @@ a {
 
 .banners__8 {
     position: absolute;
-    bottom: 80px;
+    top: 43%;
     right: 11px;
 }
 
 .banners__9 {
     max-height: 710px;
 }
+
 .banners__10 img {
     width: 100%;
+}
+
+.banners__10 {
+    /* position: relative; */
+    /* right: 5px;
+    top: 40%; */
+    transform: translate(410px, -920px);
+    max-width: 392px;
 }
 
 .banners__1::after,
@@ -530,10 +546,6 @@ a {
     justify-content: center;
     padding: 1px 15px;
     min-width: 0;
-}
-
-.popup__body.animat {
-    padding-top: 100px;
 }
 
 .popup__content {
@@ -676,21 +688,12 @@ a {
 
 
 /* -----------------media-------------- */
-@media (min-width: 1222px) {
-    .banners__10 {
-        max-width: 400px;
-        margin-top: -100px;
-    }
-}
 
 @media (min-width: 993px) {
     .banners__1:hover .banner__title,
     .banners__2:hover .banner__title,
     .banners__3:hover .banner__title,
-    .banners__5:hover .banner__title,
     .banners__6:hover .banner__title,
-    .banners__7:hover .banner__title,
-    .banners__8:hover .banner__title,
     .banners__9:hover .banner__title {
         transform: translate(-50%, 35px);
         transition: linear .3s;
@@ -703,19 +706,10 @@ a {
     .banners__6:hover .banner__title {
         padding-bottom: 210px;
     }
-    .banners__7:hover .banner__title {
-        transform: translate(-50%, 55px);
-    }
-    .banners__8:hover .banner__title {
-        padding-bottom: 210px;
-    }
     .banners__1:hover::after,
     .banners__2:hover::after,
     .banners__3:hover::after,
-    .banners__8:hover::after,
-    .banners__5:hover::after,
     .banners__6:hover::after,
-    .banners__7:hover::after,
     .banners__9:hover::after {
         transform: translateY(0px);
         transition: linear .3s;
@@ -784,29 +778,15 @@ a {
         margin-top: -233px;
         transform: translateX(0px);
     }
-    .banners__7 {
-        margin-top: -345px;
-        margin-left: 17px;
-        transform: translateX(-10px);
-    }
-    .banners__8 img,
-    .banners__7 img {
-        max-width: 297px;
-    }
     .banners__9 {
         max-height: 533px;
     }
-    .banners__5 img,
     .banners__6 img {
         max-width: 303px;
     }
-    .banners__5,
-    .banners__6 {
-        transform: translateX(9px);
-    }
-    .banners__8 {
-        bottom: 37px;
-        right: 19px;
+    .banners__10 {
+        max-width: 302px;
+        transform: translate(307px, -691px)
     }
 }
 
@@ -881,11 +861,8 @@ a {
     .banners__1::after,
     .banners__2::after,
     .banners__3::after,
-    .banners__8::after,
-    .banners__5::after,
     .banners__6::after,
-    .banners__9::after,
-    .banners__7::after {
+    .banners__9::after {
         content: '';
         position: absolute;
         width: 100%;
@@ -922,7 +899,6 @@ a {
         max-width: 249px;
         margin-top: -195px;
     }
-    .banners__5,
     .banners__6 {
         transform: translateX(0px);
     }
@@ -930,18 +906,9 @@ a {
     .banners__6 img {
         max-width: 249px;
     }
-    .banners__7 {
-        margin-top: -292px;
-        margin-left: 0px;
-        transform: translateX(0px);
-    }
-    .banners__8 img,
-    .banners__7 img {
-        max-width: 252px;
-    }
-    .banners__8 {
-        bottom: 22px;
-        right: 12px;
+    .banners__10 {
+        max-width: 249px;
+        transform: translate(254px, -574px)
     }
 }
 
@@ -977,20 +944,12 @@ a {
     .masaic.solit {
         max-width: 352px;
     }
-    .banners__5 img,
     .banners__6 img {
         max-width: 173px;
     }
-    .banners__8 img,
-    .banners__7 img {
-        max-width: 175px;
-    }
-    .banners__7 {
-        margin-top: -202px;
-        transform: translateX(-2px);
-    }
-    .banners__8 {
-        bottom: 14px;
+    .banners__10 {
+        max-width: 180px;
+        transform: translate(179px, -408px)
     }
 }
 
@@ -1140,20 +1099,12 @@ a {
         max-width: 138px;
         margin-top: -105px;
     }
-    .banners__5 img,
     .banners__6 img {
         max-width: 137px;
     }
-    .banners__8 img,
-    .banners__7 img {
-        max-width: 140px;
-    }
-    .banners__7 {
-        margin-top: -155px;
-    }
-    .banners__8 {
-        bottom: 1px;
-        right: 7px;
+    .banners__10 {
+        max-width: 137px;
+        transform: translate(135px, -316px)
     }
 }
 
@@ -1235,21 +1186,12 @@ a {
         max-width: 123px;
         margin-top: -94px;
     }
-    .banners__5 img,
     .banners__6 img {
         max-width: 124px;
     }
-    .banners__8 img,
-    .banners__7 img {
-        max-width: 122px;
-    }
-    .banners__7 {
-        margin-top: -138px;
-        transform: translateX(-0.1px);
-    }
-    .banners__8 {
-        bottom: 10px;
-        right: 3px;
+    .banners__10 {
+        max-width: 123px;
+        transform: translate(126px, -282px)
     }
 }
 
@@ -1267,20 +1209,12 @@ a {
         max-width: 105px;
         margin-top: -81px;
     }
-    .banners__5 img,
     .banners__6 img {
         max-width: 105px;
     }
-    .banners__8 img,
-    .banners__7 img {
-        max-width: 104px;
-    }
-    .banners__7 {
-        margin-top: -118px;
-    }
-    .banners__8 {
-        bottom: 9px;
-        right: 1.6px;
+    .banners__10 {
+        max-width: 105px;
+        transform: translate(106px, -241px)
     }
 }
 
