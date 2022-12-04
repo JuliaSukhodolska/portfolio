@@ -77,6 +77,8 @@ $(document).ready(function() {
         stopVideo($('.video6'));
         stopVideo($('.video7'));
         stopVideo($('.video8'));
+        stopVideo($('.video9'));
+        stopVideo($('.video10'));
     });
 
     $('.popup').on("click", function(event) {
@@ -91,6 +93,8 @@ $(document).ready(function() {
         stopVideo($('.video6'));
         stopVideo($('.video7'));
         stopVideo($('.video8'));
+        stopVideo($('.video9'));
+        stopVideo($('.video10'));
     });
 
     $('.popup__content').on("click", function(event) {
